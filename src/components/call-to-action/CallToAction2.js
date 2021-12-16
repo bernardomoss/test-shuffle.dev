@@ -44,7 +44,7 @@ export default function CTA(props) {
               <Box display="flex" height="100%" className={classes.actions}>
                 <Box my="auto">
                   <Button variant="contained" color="primary" className={classes.primaryAction}>{content['primary-action']}</Button>
-                  <Button color="secondary">{content['secondary-action']}</Button>
+                  <Button href="https://pluralsight.com" color="secondary">{content['secondary-action']}</Button>
                 </Box>
               </Box>
             </Grid>
